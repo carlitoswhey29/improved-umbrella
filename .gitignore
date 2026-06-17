@@ -1,0 +1,193 @@
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+backend/.env
+
+# Logs
+*.log
+*.log.*
+logs/*.log
+logs/*.log.*
+/var/log/
+
+# Keep logs directory structure
+!logs/README.md
+!logs/.gitkeep
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Database runtime files (db folder)
+db/*
+!db/.gitkeep
+!db/README.md
+
+# Testing
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+coverage.xml
+*.cover
+
+# Alembic
+alembic/versions/*.pyc
+
+# Secrets
+*.pem
+*.key
+*.crt
+secrets/
+*.secret
+
+# SSL Certificates (unencrypted)
+config/ssl/*.crt
+config/ssl/*.key
+config/ssl/*.pem
+config/ssl/.vault_pass.txt
+
+# Allow Ansible Vault encrypted files
+!config/ssl/*.vault
+
+# Backups
+*.bak
+*.backup
+backup/
+
+# Reports
+reports/*.xlsx
+reports/*.pdf
+reports/*.csv
+
+# Celery
+celerybeat-schedule*
+celerybeat.pid
+*.pid
+
+# Node (Frontend)
+node_modules/
+frontend/dist/
+frontend/build/
+frontend/.next/
+frontend/out/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Compiled files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# OS files
+Thumbs.db
+
+# Security scan results
+bandit-report.json
+safety-report.json
+
+# Documentation build
+docs/_build/
+site/
+
+# Claude files — the project config (rules, agents, skills, commands, hooks,
+# runtime plans) is tracked so the team and CI share it; only machine-local
+# state is ignored. Tracked docs link into .claude/runtime/plans/.
+.claude/settings.local.json
+.claude/agent-memory/*
+!.claude/agent-memory/README.md
+
+# PDF files
+*.pdf
+/pdf/
+/output/pdf/
+
+# Dependency directories
+**/node_modules/
+
+# Compiled output
+/dist/
+/tmp/
+/out-tsc/
+/bazel-out/
+
+# IDE/Editor files
+/.vscode/
+/.idea/
+*.swp
+*.swo
+
+# Dev server runtime (PID + log files from ./dev.sh)
+/.dev-run/
+
+# Logs
+/logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Angular cache (Required for Angular 14+)
+/.angular/cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment secrets
+.env
+src/environments/environment.prod.ts
+
+.dev-run/
+.ruff_cache/
+.mypy_cache/
+.pytest_cache/
+__pycache__/
+*.pyc
